@@ -11,6 +11,7 @@ static-html             # Define static page content in .html files
 reactive-var            # Reactive variable for tracker
 tracker                 # Meteor's client-side reactive programming library
 
+standard-compiler-css   # CSS compiler run for production mode
 standard-minifier-css   # CSS minifier run for production mode
 standard-minifier-js    # JS minifier run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers

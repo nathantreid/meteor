@@ -5,11 +5,6 @@ Package.describe({
   version: '1.8.0'
 });
 
-Package.registerBuildPlugin({
-  name: "basicFileTypes",
-  sources: ['plugin/basic-file-types.js']
-});
-
 Npm.depends({
   "meteor-deque": "2.1.0"
 });
